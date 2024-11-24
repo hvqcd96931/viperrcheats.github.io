@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIPERR CHEATS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #1c1c3c, #000000);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 60px;
+      text-align: center;
+      letter-spacing: 4px;
+      color: #ffffff;
+      text-shadow: 0 5px 15px rgba(75, 0, 130, 0.5), 0 0 20px rgba(0, 0, 255, 0.6);
+      animation: textGlow 3s infinite alternate;
+    }
+
+    @keyframes textGlow {
+      from {
+        text-shadow: 0 5px 15px rgba(75, 0, 130, 0.6), 0 0 20px rgba(0, 0, 255, 0.8);
+      }
+      to {
+        text-shadow: 0 8px 25px rgba(138, 43, 226, 0.8), 0 0 40px rgba(0, 191, 255, 1);
+      }
+    }
+
+    .button-container {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+      z-index: 2;
+    }
+
+    .button-item {
+      text-align: center;
+      width: 420px;
+      background: linear-gradient(145deg, #0e1a3d, #000022);
+      border-radius: 20px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9), 0 0 20px rgba(75, 0, 130, 0.5);
+      overflow: hidden;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      position: relative;
+    }
+
+    .button-item:hover {
+      transform: translateY(-15px) scale(1.03);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 1), 0 0 30px rgba(138, 43, 226, 0.6);
+    }
+
+    .download-button {
+      text-decoration: none;
+      display: inline-block;
+      background: linear-gradient(90deg, #4b0082, #0000ff);
+      color: #ffffff;
+      padding: 20px 70px;
+      border: none;
+      border-radius: 15px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6), 0 0 10px rgba(138, 43, 226, 0.5);
+      cursor: pointer;
+      margin: 25px auto;
+      width: 85%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .download-button:hover {
+      background: linear-gradient(90deg, #6a0dad, #1e90ff);
+      transform: scale(1.1);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 191, 255, 0.7);
+    }
+
+    .button-item img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 20px 20px 0 0;
+      transition: transform 0.4s ease, filter 0.4s ease;
+      filter: brightness(0.9) contrast(1.2);
+    }
+
+    .button-item:hover img {
+      transform: scale(1.1);
+      filter: brightness(1.2) contrast(1.5);
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 1.1rem;
+      color: #cccccc;
+      z-index: 2;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    footer a {
+      color: #6495ed;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    footer a:hover {
+      color: #9370db;
+    }
+
+    @keyframes move {
+      from {
+        transform: translateY(0) scale(1);
+      }
+      to {
+        transform: translateY(-20px) scale(1.2);
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>VIPERR CHEATS</h1>
+<div class="button-container">
+  <div class="button-item">
+    <img src="https://media.discordapp.net/attachments/1302896147093913642/1309967184881123418/image2.jpg?ex=67438182&is=67423002&hm=e81a19bf45c606d8572e9739fa8645153bd732747920f46abc30a705a5a04638&=&format=webp" alt="Cheat 1 Image">
+    <a href="file1.exe" class="download-button" download>Скачать Shika 5.2</a>
+  </div>
+  <div class="button-item">
+    <img src="https://media.discordapp.net/attachments/1302896147093913642/1309967185200025651/image3.jpg?ex=67438182&is=67423002&hm=7d76fb13f7a51614783ccaf87a38738fb4ce697af1aa8e1a6ef3f7b78945a215&=&format=webp" alt="Cheat 2 Image">
+    <a href="file2.exe" class="download-button" download>Скачать Korepi</a>
+  </div>
+  <div class="button-item">
+    <img src="https://media.discordapp.net/attachments/1302896147093913642/1309967185556275210/image1.jpg?ex=67438183&is=67423003&hm=ba1a7f3dcd5015530b75c21f3061925bb8ee72aaee48ed85945cf29fd8cd90e1&=&format=webp" alt="Cheat 3 Image">
+    <a href="file3.exe" class="download-button" download>Скачать JJSploit</a>
+  </div>
+</div>
+
+<footer>
+  © 2024 VIPERR CHEATS | Разработано с <a href="#">любовью</a>
+</footer>
+</body>
+</html>
